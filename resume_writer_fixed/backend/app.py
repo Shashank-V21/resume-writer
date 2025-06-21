@@ -12,7 +12,7 @@ os.makedirs("generated", exist_ok=True)
 
 @app.route("/")
 def home():
-    return "Resume Writer API is running!"
+    return "Flask is working!"
 
 @app.route("/generate", methods=["POST"])
 def generate_resume():
